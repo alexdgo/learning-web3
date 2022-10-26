@@ -34,7 +34,7 @@ bytecode = compiled_sol["contracts"]["SimpleStorage.sol"]["SimpleStorage"]["evm"
 # get abi
 abi = compiled_sol["contracts"]["SimpleStorage.sol"]["SimpleStorage"]["abi"]
 
-# connect to ganache
+# connect to ganache/connect to chain
 w3 = Web3(
     Web3.HTTPProvider("https://goerli.infura.io/v3/{}".format(os.getenv("API_KEY")))
 )

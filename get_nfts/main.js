@@ -9,8 +9,7 @@ const config = {
 const alchemy = new Alchemy(config);
 
 const main = async () => {
-    // Wallet address
-    // const address = "0xd6a984153aCB6c9E2d788f08C2465a1358BB89A7";
+    // Wallet address - random
     const address = "0x901DD05689A77FFCbCc53Bb7d60113EC3B2EA6f6"
 
     // Get all NFTs (100 latest nfts)
